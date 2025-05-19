@@ -2,9 +2,9 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader } from "@/components/ui/card";
 import { Briefcase, House, Shield, Trees } from "lucide-react";
 import Image from "next/image";
-import { BsPeople, BsTools } from "react-icons/bs";
+import { BsPeople } from "react-icons/bs";
 import { CgCross } from "react-icons/cg";
-import { TbGrowth, TbTools } from "react-icons/tb";
+import { TbTools } from "react-icons/tb";
 
 export default function Home() {
   return (
