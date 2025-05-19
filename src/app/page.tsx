@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader } from "@/components/ui/card";
 import { Briefcase, House, Shield, Trees } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 import { BsPeople } from "react-icons/bs";
 import { CgCross } from "react-icons/cg";
 import { TbTools } from "react-icons/tb";
@@ -22,15 +23,14 @@ export default function Home() {
       
       <Card className="m-2 p-2 rounded-xl shadow-sm h-full">
         <CardHeader className="flex justify-center p-4">
-            <div className="flex flex-col gap-y-8 items-center rounded-lg p-4 my-4 w-3/4">
+            <div className="flex flex-col gap-y-8 items-center rounded-lg p-4 my-4">
               <h1 className="text-4xl">Faith-Driven Property Management Across Middle Tennessee</h1>
               <p className="text-green-800">Residential & Commercial Rentals | Investor Services | 24/7 Maintenance</p>
               <div className="border w-full border-neutral-300"/>
               <h1 className="text-muted-foreground text-lg font-semibold">Come to us for your next home or need property management serices!</h1>
-              <div className="flex justify-center-center gap-x-4 py-4">
-                  <Button size="sm" className="text-sm">Properties</Button>
-                  <Button size="sm" className="text-sm">Tenant Application</Button>
-                  <Button size="sm" className="text-sm">Property Management</Button>
+              <div className="flex justify-center-center w-3/4 gap-x-4 py-4">
+                  <Button className="text-xl w-full"><Link href="https://app.propertyware.com/pw/application/#/tenant/wtrcapitalllc">Properties</Link></Button>
+                  <Button className="text-xl w-full"><Link href="https://app.propertyware.com/pw/application/#/tenant/wtrcapitalllc">Tenant Application</Link></Button>
               </div>
               <div className="w-full flex justify-center gap-x-4 ">
                 
