@@ -28,9 +28,9 @@ export default function Home() {
               <p className="text-green-800">Residential & Commercial Rentals | Investor Services | 24/7 Maintenance</p>
               <div className="border w-full border-neutral-300"/>
               <h1 className="text-muted-foreground text-lg font-semibold">Come to us for your next home or need property management serices!</h1>
-              <div className="flex justify-center-center w-3/4 gap-x-4 py-4">
-                  <Button className="text-xl w-full"><Link href="https://app.propertyware.com/pw/application/#/tenant/wtrcapitalllc">Properties</Link></Button>
-                  <Button className="text-xl w-full"><Link href="https://app.propertyware.com/pw/application/#/tenant/wtrcapitalllc">Tenant Application</Link></Button>
+              <div className="flex justify-center w-2/3  gap-x-4 py-4">
+                  <Button size="lg" className="text-xl w-full"><Link href="https://app.propertyware.com/pw/application/#/tenant/wtrcapitalllc">Properties</Link></Button>
+                  <Button size="lg" className="text-xl w-full"><Link href="https://app.propertyware.com/pw/application/#/tenant/wtrcapitalllc">Tenant Application</Link></Button>
               </div>
               <div className="w-full flex justify-center gap-x-4 ">
                 
