@@ -25,8 +25,8 @@ export default function Home() {
           <span>WTR Capital</span>
         </div>
         <div className="flex gap-2">
-          <Button>Tenants</Button>
-          <Button variant="outline">Owners</Button>
+          <Button><Link href="https://wtrcapitalllc.propertyware.com/tenants.html">Tenants</Link></Button>
+          <Button variant="outline"><Link href="https://wtrcapitalllc.propertyware.com/owners.html">Owners</Link></Button>
         </div>
       </nav>
 
@@ -48,9 +48,9 @@ export default function Home() {
           <p className="mt-4 text-lg md:text-xl max-w-xl">
             Creating lasting value through integrity, service, and community.
           </p>
-          <div className="mt-6 flex gap-4 flex-wrap justify-center">
-            <Button type="button"><Link href="https://wtrcapitalllc.propertyware.com/rentals.html">View Rentals</Link></Button>
-            <Button type="button"><Link href="https://app.propertyware.com/pw/application/#/tenant/wtrcapitalllc">Apply Now</Link></Button>
+          <div className="mt-6 flex gap-4 justify-center">
+            <Button type="button" size="lg" className="text-xl hover:cursor-pointer w-full"><Link href="https://wtrcapitalllc.propertyware.com/rentals.html">View Rentals</Link></Button>
+            <Button type="button" size="lg" className="text-xl hover:cursor-pointer w-full"><Link href="https://app.propertyware.com/pw/application/#/tenant/wtrcapitalllc">Apply Now</Link></Button>
           </div>
         </div>
       </section>
