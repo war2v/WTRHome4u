@@ -25,8 +25,9 @@ export default function Home() {
           <span>WTR Capital</span>
         </div>
         <div className="flex gap-2">
-          <Button><Link href="https://wtrcapitalllc.propertyware.com/tenants.html">Tenants</Link></Button>
-          <Button variant="outline"><Link href="https://wtrcapitalllc.propertyware.com/owners.html">Owners</Link></Button>
+          <Button asChild  type="button" className="hover:cursor-pointer"><Link href="https://wtrcapitalllc.propertyware.com/tenants.html">Tenants</Link></Button>
+          <Button asChild type="button" className="hover:cursor-pointer"><Link href="https://wtrcapitalllc.propertyware.com/owners.html">Owners</Link></Button>
+          <Button asChild variant="outline" className="hover:cursor-pointer" type="button"><Link href="https://wtrcapitalllc.propertyware.com">Main Site</Link></Button>
         </div>
       </nav>
 
@@ -49,8 +50,9 @@ export default function Home() {
             Creating lasting value through integrity, service, and community.
           </p>
           <div className="mt-6 flex gap-4 justify-center">
-            <Button type="button" size="lg" className="text-xl hover:cursor-pointer w-full"><Link href="https://wtrcapitalllc.propertyware.com/rentals.html">View Rentals</Link></Button>
-            <Button type="button" size="lg" className="text-xl hover:cursor-pointer w-full"><Link href="https://app.propertyware.com/pw/application/#/tenant/wtrcapitalllc">Apply Now</Link></Button>
+            <Button asChild type="button" size="lg" className="text-xl hover:cursor-pointer w-full"><Link href="https://wtrcapitalllc.propertyware.com">Main Site</Link></Button>
+            <Button asChild type="button" size="lg" className="text-xl hover:cursor-pointer w-full"><Link href="https://wtrcapitalllc.propertyware.com/rentals.html">View Rentals</Link></Button>
+            <Button asChild type="button" size="lg" className="text-xl hover:cursor-pointer w-full"><Link href="https://app.propertyware.com/pw/application/#/tenant/wtrcapitalllc">Apply Now</Link></Button>
           </div>
         </div>
       </section>
