@@ -15,6 +15,7 @@ import { TbTools } from "react-icons/tb";
 import Image from "next/image";
 import Link from "next/link";
 import Nav from "@/components/ui/custom/Nav";
+import { Map } from "@/components/ui/custom/Map";
 
 export default function Home() {
   return (
@@ -143,6 +144,7 @@ export default function Home() {
             />
           </div>
         </div>
+        <Map />
       </section>
     </div>
   );
