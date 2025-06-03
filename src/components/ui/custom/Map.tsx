@@ -3,9 +3,9 @@ import { Card, CardContent } from "../card";
 
 export function Map() {
   return (
-    <section className="bg-muted my-5 py-16 px-4">
+    <section className="bg-gray-50 py-16 px-4">
       <div className="max-w-6xl mx-auto text-center">
-        <h2 className="text-3xl font-bold text-gray-800 mb-4">
+        <h2 className="text-3xl font-bold text-green-700 mb-4">
           Serving Middle Tennessee
         </h2>
         <p className="text-gray-600 mb-10 max-w-2xl mx-auto">
