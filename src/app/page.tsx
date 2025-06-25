@@ -2,7 +2,6 @@ import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
 import Nav from "@/components/ui/custom/Nav";
-import { Map } from "@/components/ui/custom/Map";
 import Values from "@/components/ui/custom/Values";
 import About from "@/components/ui/custom/About";
 import Footer from "@/components/ui/custom/Footer";
