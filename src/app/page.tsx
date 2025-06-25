@@ -38,8 +38,8 @@ export default function Home() {
               size="lg"
               className="text-xl hover:cursor-pointer w-full"
             >
-              <Link href="https://wtrcapitalllc.propertyware.com">
-                Main Site
+              <Link href="https://calendly.com/aruss-wtrc/30min">
+                Schedule Showing
               </Link>
             </Button>
             <Button
@@ -71,8 +71,9 @@ export default function Home() {
 
       {/* Values Section */}
       <Values />
-      {/* Map Section */}
+      {/* Map Section 
       <Map />
+      */}
 
       {/* Footer */}
       <Footer />
