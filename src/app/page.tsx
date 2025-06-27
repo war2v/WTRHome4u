@@ -30,7 +30,7 @@ export default function Home() {
           <p className="mt-4 text-lg md:text-xl max-w-xl">
             Creating lasting value through integrity, service, and community.
           </p>
-          <div className="mt-6 w-full max-w-2xl gap-4 justify-center grid grid-cols-3">
+          <div className="mt-6 w-1/2  max-w-2xl gap-4 justify-center grid grid-cols-1 md:grid-cols-3 md:w-full ">
             <Button
               asChild
               type="button"
