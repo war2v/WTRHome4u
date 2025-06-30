@@ -19,8 +19,8 @@ const Footer = () => {
                 <h4 className="text-lg font-semibold mb-3 text-green-700">Quick Links</h4>
                 <ul className="space-y-2 text-sm text-neutral-500">
                     <li><Link href="/" className="hover:underline">Home</Link></li>
-                    <li><Link href="/rentals" className="hover:underline">View Rentals</Link></li>
-                    <li><Link href="/owners" className="hover:underline">For Owners</Link></li>
+                    <li><Link href="https://wtrcapitalllc.propertyware.com/rentals.html" className="hover:underline">View Rentals</Link></li>
+                    <li><Link href="https://wtrcapitalllc.propertyware.com/owners.html" className="hover:underline">For Owners</Link></li>
                     <li><Link href="/contact" className="hover:underline">Contact Us</Link></li>
                 </ul>
                 </div>
@@ -30,10 +30,10 @@ const Footer = () => {
                 <h4 className="text-lg font-semibold mb-3 text-green-700">Contact</h4>
                 <ul className="space-y-2 text-sm text-neutral-500">
                     <li className="flex items-center gap-2">
-                    <Phone className="w-4 h-4 text-green-400" /> <span>(615) 123-4567</span>
+                    <Phone className="w-4 h-4 text-green-400" /> <span>(615) 476-6964</span>
                     </li>
                     <li className="flex items-center gap-2">
-                    <Mail className="w-4 h-4 text-green-400" /> <span>info@wtrcapital.com</span>
+                    <Mail className="w-4 h-4 text-green-400" /> <span>aruss.wtrc@gmail.com</span>
                     </li>
                     <li className="flex items-center gap-2">
                     <MapPin className="w-4 h-4 text-green-400" /> <span>Murfreesboro, TN</span>

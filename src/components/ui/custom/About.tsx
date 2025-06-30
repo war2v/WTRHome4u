@@ -45,17 +45,17 @@ const About = () => {
                     />
                     <StatCard
                     icon={<HomeIcon className="text-green-700 w-10 h-10" />}
-                    value="10+"
+                    value="14"
                     label="Portfolios Managed"
                     />
                     <StatCard
                     icon={<HomeIcon className="text-green-700 w-10 h-10" />}
-                    value="100+"
+                    value="124"
                     label="Properties Managed"
                     />
                     <StatCard
                     icon={<Users className="text-green-700 w-10 h-10" />}
-                    value="10+"
+                    value="12"
                     label="Owners Served"
                     />
                 </div>
