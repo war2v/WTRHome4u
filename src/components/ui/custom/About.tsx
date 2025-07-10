@@ -26,8 +26,8 @@ const About = () => {
     return ( 
         <section className="py-4 px-4 bg-gray-50 pt-30">
             <div className="max-w-6xl mx-auto text-center">
-                <h2 className="text-3xl p-10 md:text-4xl font-bold mb-6 text-emerald-600">
-                    About WTR Capital
+                <h2 className="text-6xl p-10 md:text-4xl font-semibold mb-6 text-emerald-600 bg-emerald-500 rounded-md">
+                    <span className="text-white">The Soul of WTR Capital</span>
                 </h2>
                 <p className="text-gray-600 text-2xl mb-12">
                       With a mission rooted in <span className="font-semibold text-emerald-500">faith</span>, <span className="font-semibold text-emerald-500">integrity</span>, and <span className="font-semibold text-emerald-500">service</span>, WTR Capital
