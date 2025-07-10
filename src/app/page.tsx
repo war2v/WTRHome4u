@@ -35,7 +35,7 @@ export default function Home() {
               asChild
               type="button"
               size="lg"
-              className="text-xl hover:cursor-pointer w-full"
+              className="text-lg hover:cursor-pointer w-full"
             >
               <Link href="https://calendly.com/aruss-wtrc/30min">
                 Schedule Showing
@@ -45,7 +45,7 @@ export default function Home() {
               asChild
               type="button"
               size="lg"
-              className="text-xl hover:cursor-pointer w-full"
+              className="text-lg hover:cursor-pointer w-full"
             >
               <Link href="https://wtrcapitalllc.propertyware.com/rentals.html">
                 View Rentals
@@ -55,7 +55,7 @@ export default function Home() {
               asChild
               type="button"
               size="lg"
-              className="text-xl hover:cursor-pointer w-full"
+              className="text-lg hover:cursor-pointer w-full"
             >
               <Link href="https://app.propertyware.com/pw/application/#/tenant/wtrcapitalllc">
                 Apply Now

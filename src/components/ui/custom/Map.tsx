@@ -5,7 +5,7 @@ export function Map() {
   return (
     <section className="bg-gray-50 py-16 px-4">
       <div className="max-w-6xl mx-auto text-center">
-        <h2 className="text-3xl font-bold text-green-700 mb-4">
+        <h2 className="text-3xl font-bold text-emerald-600 mb-4">
           Serving Middle Tennessee
         </h2>
         <p className="text-gray-600 mb-10 max-w-2xl mx-auto">
@@ -22,7 +22,7 @@ export function Map() {
         <Card className="mt-10 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 text-gray-700">
           {["Murfreesboro", "Nashville", "Franklin", "Brentwood", "Smyrna", "La Vergne", "Lebanon", "Spring Hill"].map((city) => (
             <div key={city} className="flex items-center justify-center gap-2">
-              <MapPin className="h-5 w-5 text-green-700" />
+              <MapPin className="h-5 w-5 text-emerald-600" />
               <span>{city}</span>
             </div>
           ))}
