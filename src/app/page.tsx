@@ -5,7 +5,6 @@ import Nav from "@/components/ui/custom/Nav";
 import Values from "@/components/ui/custom/Values";
 import About from "@/components/ui/custom/About";
 import Footer from "@/components/ui/custom/Footer";
-import { FeaturedProperties } from "@/components/ui/custom/FeaturedProperties";
 import { Team } from "@/components/ui/custom/Team";
 import { Inquiry } from "@/components/ui/custom/Inquiry";
 
