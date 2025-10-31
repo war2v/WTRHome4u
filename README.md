@@ -1,36 +1,94 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+WTR Capital Website (wtr-app)
 
-## Getting Started
+This is the official website for WTR Capital, a faith-driven property management company serving Middle Tennessee. This repository contains the source code for the public-facing informational site, built with Next.js 15 and Tailwind CSS 4.
 
-First, run the development server:
+Preview
 
-```bash
+✨ Features
+
+Modern Homepage: A clean, responsive landing page introducing the company's mission and services.
+
+Company Information: Includes sections for "The WTR Capital Mission," key company statistics, and "Our Leadership Team."
+
+Contact Form: A "Have Questions?" form for users to send inquiries.
+
+Full-Site Navigation: A complete header and footer with navigation to all parts of the site.
+
+🛠️ Tech Stack
+
+This project is built with a modern, performant tech stack:
+
+Framework: Next.js (v15)
+
+UI Library: React (v19)
+
+Language: TypeScript
+
+Styling: Tailwind CSS (v4)
+
+UI Primitives & Utilities:
+
+@radix-ui/react-slot: For component composition.
+
+clsx & tailwind-merge: For conditional and optimized class name management.
+
+class-variance-authority: For managing component variants.
+
+Icons: Lucide React & React Icons
+
+Linting: ESLint
+
+🚀 Getting Started
+
+To get a local copy up and running, follow these simple steps.
+
+Prerequisites
+
+You must have Node.js (v20+) and npm installed.
+
+Installation
+
+Clone the repo:
+
+git clone [https://github.com/your-username/wtr-app.git](https://github.com/your-username/wtr-app.git)
+
+
+Navigate to the project directory:
+
+cd wtr-app
+
+
+Install NPM packages:
+
+npm install
+
+
+Available Scripts
+
+Run the development server:
+This will start the app on http://localhost:3000.
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Build the application for production:
+This creates an optimized production build.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+npm run build
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+Run the production build:
+This starts the app from the production build.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+npm run start
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+Lint the code:
+This will run ESLint to check for code quality and style issues.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+npm run lint
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+📜 License
+
+This project is proprietary to WTR Capital. (Or specify your license, e.g., "Distributed under the MIT License.")
