@@ -17,7 +17,6 @@ const Values = () => {
   return (
     <section className="py-6 ">
       <div className="max-w-5xl mx-auto px-4 text-center">
-
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-6 justify-items-center">
           <Value
             icon={<Shield className="w-8 h-8 text-green-700" />}

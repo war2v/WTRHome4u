@@ -71,7 +71,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        
+
         {/* About Section */}
         <About />
 
@@ -79,7 +79,6 @@ export default function Home() {
         <Team />
 
         {/* Featured Properties */}
-        
 
         {/* Map Section 
         <Map />
@@ -95,7 +94,3 @@ export default function Home() {
     </div>
   );
 }
-
-
-
-
