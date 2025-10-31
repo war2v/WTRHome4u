@@ -3,14 +3,15 @@ import { Button } from "../button";
 import { Card } from "../card";
 import { Input } from "../input";
 import { Textarea } from "../textarea";
-import { useState } from 'react';
+import { FormEvent, useState } from 'react';
 
 export default function InquiryForm() {
   const [result, setResult] = useState("");
 
-  const onSubmit = async (event: any) => {
+  const onSubmit = async (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    const formData = new FormData(event.target);
+    const form = event.currentTarget;
+    const formData = new FormData(form);
     const key = process.env.NEXT_PUBLIC_WEB3_ACCESS_KEY ? process.env.NEXT_PUBLIC_WEB3_ACCESS_KEY : ""
     formData.append("access_key",  key);
     
