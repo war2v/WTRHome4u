@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Nav = () => {
     return ( 
-        <nav className="flex justify-between items-center px-6 py-3 bg-white shadow-sm">
+        <nav className="fixed z-1000 w-full flex justify-between items-center px-6 py-3 bg-white/50 shadow-sm">
             <div className="flex items-center gap-2 text-green-700 hover:text-green-500 transition font-bold text-xl">
                 <House className="w-5 h-5" />
                 <span className="opacity-0 sm:opacity-100">WTRHome4U</span>
