@@ -6,7 +6,7 @@ import Values from "@/components/ui/custom/Values";
 import About from "@/components/ui/custom/About";
 import Footer from "@/components/ui/custom/Footer";
 import { Team } from "@/components/ui/custom/Team";
-import { Inquiry } from "@/components/ui/custom/Inquiry";
+import InquiryForm from "@/components/ui/custom/Inquiry";
 
 export default function Home() {
   return (
@@ -85,7 +85,7 @@ export default function Home() {
 
         {/* Inquiry Section */}
 
-        <Inquiry />
+        <InquiryForm />
 
         {/* Footer */}
         <Footer />
