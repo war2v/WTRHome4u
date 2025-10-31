@@ -1,10 +1,10 @@
-WTR Capital Website (wtr-app)
+# WTR Capital Website (wtr-app)
 
-This is the official website for WTR Capital, a faith-driven property management company serving Middle Tennessee. This repository contains the source code for the public-facing informational site, built with Next.js 15 and Tailwind CSS 4.
+## This is the official website for WTR Capital, a faith-driven property management company serving Middle Tennessee. This repository contains the source code for the public-facing informational site, built with Next.js 15 and Tailwind CSS 4.
 
-Preview
+### Preview
 
-✨ Features
+## ✨ Features
 
 Modern Homepage: A clean, responsive landing page introducing the company's mission and services.
 
@@ -14,7 +14,7 @@ Contact Form: A "Have Questions?" form for users to send inquiries.
 
 Full-Site Navigation: A complete header and footer with navigation to all parts of the site.
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 This project is built with a modern, performant tech stack:
 
@@ -38,7 +38,7 @@ Icons: Lucide React & React Icons
 
 Linting: ESLint
 
-🚀 Getting Started
+## 🚀 Getting Started
 
 To get a local copy up and running, follow these simple steps.
 
