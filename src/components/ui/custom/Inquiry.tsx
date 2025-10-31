@@ -11,7 +11,9 @@ export default function InquiryForm() {
   const onSubmit = async (event: any) => {
     event.preventDefault();
     const formData = new FormData(event.target);
-    formData.append("access_key", "382c8737-4537-4f29-8b4a-25eae8e52c6a");
+    const key = process.env.NEXT_PUBLIC_WEB3_ACCESS_KEY ? process.env.NEXT_PUBLIC_WEB3_ACCESS_KEY : ""
+    formData.append("access_key",  key);
+    
 
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
@@ -23,7 +25,7 @@ export default function InquiryForm() {
   };
 
   return (
-    <Card className="w-2/3 p-4 my-10 py-10 mx-auto">
+    <Card className="w-2/3 p-4  mx-auto">
       <form className="flex flex-col gap-2" onSubmit={onSubmit}>
           <h1 className="text-2xl font-semibold text-muted-foreground">
             Have Questions?

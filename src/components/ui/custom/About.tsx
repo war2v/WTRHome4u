@@ -24,8 +24,8 @@ function StatCard({
 
 const About = () => {
   return (
-    <section className=" px-4 my-10 py-10">
-      <div className=" flex flex-col max-w-6xl gap-10 items-center  w-full">
+    <section className="w-full flex justify-center  px-4 my-10 py-10">
+      <div className=" flex flex-col max-w-6xl gap-10 items-center justify-center  w-full">
         <h2 className="text-3xl md:text-4xl font-bold  text-green-700">
           The WTR Capital Mission
         </h2>

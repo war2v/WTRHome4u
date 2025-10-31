@@ -3,10 +3,10 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className=" pb-10 px-4">
-      <div className="items-center justify-center max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-4">
+    <footer className="w-full pt-10 px-4">
+      <div className="items-center justify-center w-full mx-auto grid grid-cols-1 md:grid-cols-3 gap-4">
         {/* Brand & Description */}
-        <div>
+        <div className="w-1/2">
           <h3 className="text-2xl text-green-700 font-bold mb-2">
             WTR Capital
           </h3>
