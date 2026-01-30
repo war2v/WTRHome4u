@@ -8,7 +8,7 @@ export function Map() {
         <h2 className="text-3xl font-bold text-emerald-600 mb-4">
           Serving Middle Tennessee
         </h2>
-        <p className="text-gray-600 mb-10 max-w-2xl mx-auto">
+        <p className="text-muted-foreground mb-10 max-w-2xl mx-auto">
           WTR Capital proudly manages residential and commercial properties
           throughout Middle Tennessee — including Rutherford, Davidson,
           Williamson, and surrounding counties.

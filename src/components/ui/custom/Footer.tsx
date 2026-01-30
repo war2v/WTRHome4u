@@ -7,10 +7,8 @@ const Footer = () => {
       <div className="items-center justify-center w-full mx-auto grid grid-cols-1 md:grid-cols-3 gap-4">
         {/* Brand & Description */}
         <div className="w-1/2">
-          <h3 className="text-2xl text-green-700 font-bold mb-2">
-            WTR Capital
-          </h3>
-          <p className="text-sm text-neutral-400">
+          <h3 className="text-2xl text-primary font-bold mb-2">WTR Capital</h3>
+          <p className="text-sm text-muted-foreground">
             Faith-driven property management serving Middle Tennessee with
             integrity, professionalism, and care.
           </p>
@@ -18,10 +16,10 @@ const Footer = () => {
 
         {/* Navigation Links */}
         <div>
-          <h4 className="text-lg font-semibold mb-3 text-green-700">
+          <h4 className="text-lg font-semibold mb-3 text-primary">
             Quick Links
           </h4>
-          <ul className="space-y-2 text-sm text-neutral-500">
+          <ul className="space-y-2 text-sm text-muted-foreground">
             <li>
               <Link href="/" className="hover:underline">
                 Home
@@ -53,8 +51,8 @@ const Footer = () => {
 
         {/* Contact Info */}
         <div>
-          <h4 className="text-lg font-semibold mb-3 text-green-700">Contact</h4>
-          <ul className="space-y-2 text-sm text-neutral-500">
+          <h4 className="text-lg font-semibold mb-3 text-primary">Contact</h4>
+          <ul className="space-y-2 text-sm text-muted-foreground">
             <li className="flex items-center gap-2">
               <Phone className="w-4 h-4 text-green-400" />{" "}
               <span>(615) 476-6964</span>
@@ -72,7 +70,7 @@ const Footer = () => {
       </div>
 
       {/* Bottom Bar */}
-      <div className="mt-10 pt-4 text-center text-sm text-neutral-500">
+      <div className="mt-10 pt-4 text-center text-sm text-muted-foreground">
         &copy; {new Date().getFullYear()} WTR Capital. All rights reserved.
       </div>
     </footer>

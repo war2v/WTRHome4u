@@ -19,27 +19,27 @@ const Values = () => {
       <div className="max-w-5xl mx-auto px-4 text-center">
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-6 justify-items-center">
           <Value
-            icon={<Shield className="w-8 h-8 text-green-700" />}
+            icon={<Shield className="w-8 h-8 text-primary" />}
             label="Integrity"
           />
           <Value
-            icon={<CgCross className="w-8 h-8 text-green-700" />}
+            icon={<CgCross className="w-8 h-8 text-primary" />}
             label="Faith"
           />
           <Value
-            icon={<BsPeople className="w-8 h-8 text-green-700" />}
+            icon={<BsPeople className="w-8 h-8 text-primary" />}
             label="Community"
           />
           <Value
-            icon={<Trees className="w-8 h-8 text-green-700" />}
+            icon={<Trees className="w-8 h-8 text-primary" />}
             label="Growth"
           />
           <Value
-            icon={<TbTools className="w-8 h-8 text-green-700" />}
+            icon={<TbTools className="w-8 h-8 text-primary" />}
             label="Excellent Service"
           />
           <Value
-            icon={<Briefcase className="w-8 h-8 text-green-700" />}
+            icon={<Briefcase className="w-8 h-8 text-primary" />}
             label="Professionalism"
           />
         </div>
