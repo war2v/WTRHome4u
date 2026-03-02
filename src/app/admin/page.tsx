@@ -1,6 +1,6 @@
 "use client"
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Workflow, Zap, Shield, CheckCircle2, Clock, RefreshCw, AlertCircle, Database, Lock, GitBranch, Settings, BarChart, Users, TrendingUp, Award, Key } from "lucide-react";
+import { ArrowRight, Workflow, Zap, Shield, CheckCircle2, Clock, RefreshCw, AlertCircle, Database, Lock, GitBranch, BarChart, Users, TrendingUp, Award, Key } from "lucide-react";
 
 
 export default function Admin(){
@@ -139,10 +139,10 @@ export default function Admin(){
                         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                         <div className="text-center mb-16">
                             <h2 className="text-3xl lg:text-5xl font-bold text-[#2F2F2F] mb-4">
-                            Property management shouldn't be this manual.
+                            Property management shouldn&apos;t be this manual.
                             </h2>
                             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                            You have access to Propertyware's API, but no time to build the automation you need.
+                            You have access to Propertyware&apos;s API, but no time to build the automation you need.
                             </p>
                         </div>
                         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -188,7 +188,7 @@ export default function Admin(){
                             </div>
                             <h3 className="text-xl font-semibold text-[#2F2F2F] mb-2">API access but no tooling</h3>
                             <p className="text-gray-600">
-                                You know the API could solve these problems, but building custom integrations isn't in your budget.
+                                You know the API could solve these problems, but building custom integrations isn&apos;t in your budget.
                             </p>
                             </div>
                         </div>
@@ -200,7 +200,7 @@ export default function Admin(){
                         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                         <div className="text-center mb-16">
                             <h2 className="text-3xl lg:text-5xl font-bold text-[#2F2F2F] mb-4">
-                            Automation built on Propertyware's API
+                            Automation built on Propertyware&apos;s API
                             </h2>
                             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
                             Pre-built workflows designed specifically for property managers. Connect once, automate forever.
@@ -222,7 +222,7 @@ export default function Admin(){
                             </div>
                             <h3 className="text-2xl font-semibold text-[#2F2F2F] mb-3">Real-time data syncing</h3>
                             <p className="text-gray-600 leading-relaxed">
-                                Keep property, tenant, and lease information synchronized across your tools. Updates happen instantly through Propertyware's API.
+                                Keep property, tenant, and lease information synchronized across your tools. Updates happen instantly through Propertyware&apos;s API.
                             </p>
                             </div>
                             <div className="bg-white p-8 rounded-xl shadow-lg border border-[#E5E7EB]">
@@ -420,7 +420,7 @@ export default function Admin(){
                             </div>
                             <div className="mt-12 text-center">
                                 <p className="text-gray-600 italic">
-                                "Early access partners are helping shape the future of property management automation."
+                                &quot;Early access partners are helping shape the future of property management automation.&quot;
                                 </p>
                             </div>
                             </div>
