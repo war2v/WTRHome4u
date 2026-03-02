@@ -405,7 +405,7 @@ export default function Admin(){
                                 </div>
                                 <h3 className="font-semibold text-[#2F2F2F] mb-2">Scoped permissions</h3>
                                 <p className="text-gray-600 text-sm">
-                                    Read-only and scoped permissions ensure access only to what's needed.
+                                    Read-only and scoped permissions ensure access only to what&apos;s needed.
                                 </p>
                                 </div>
                                 <div className="text-center">

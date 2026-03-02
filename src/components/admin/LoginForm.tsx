@@ -1,8 +1,7 @@
-import { House, Lock } from "lucide-react"
+import { House } from "lucide-react"
 import { Card, CardHeader } from "../ui/card"
 import { Input } from "../ui/input"
 import { Button } from "../ui/button"
-import { SiExpress } from "react-icons/si"
 
 export const LoginForm = () => {
     return(
