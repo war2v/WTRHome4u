@@ -30,10 +30,10 @@ export const Team = () => {
           <Card className=" flex flex-col items-center p-2 h-full text-muted-foreground">
             <Image
               src="/teresa.png"
-              alt="Warren.jpg"
-              className="rounded-lg"
-              width={300}
-              height={300}
+              alt="Teresa.jpg"
+              className="h-50 w-50 rounded-lg object-cover"
+              width={500}
+              height={500}
             />
             <ul className="flex flex-col gap-2 justify-end ">
               <li className="text-2xl font-bold text-primary">
@@ -62,9 +62,9 @@ export const Team = () => {
             <Image
               src="/warren.png"
               alt="warren.png"
-              className="rounded-lg"
-              width={300}
-              height={300}
+              className="h-50 w-50 rounded-lg object-cover"
+              width={500}
+              height={500}
             />
             <ul className="flex flex-col gap-2">
               <li className="text-2xl font-bold text-primary">President</li>
@@ -86,9 +86,9 @@ export const Team = () => {
             <Image
               src="/alex.png"
               alt="Warren.jpg"
-              className="rounded-lg"
+              className="h-50 w-50 rounded-lg object-cover"
               width={500}
-              height={400}
+              height={500}
             />
             <ul className="flex flex-col gap-2">
               <li className="text-2xl font-bold text-primary">IT Specialist</li>
