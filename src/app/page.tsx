@@ -53,8 +53,8 @@ export default function Home() {
                 size="lg"
                 className="text-xl hover:cursor-pointer w-full"
               >
-                <Link href="https://wtrcapitalllc.propertyware.com/rentals.html">
-                  View Rentals
+                <Link href="https://docs.google.com/forms/d/e/1FAIpQLScIg8vKDZpSx5O2a1BK8ncxpZkmdawdGcDMrQU2gjFUkvuJgg/viewform?usp=publish-editor">
+                  Join Waitlist
                 </Link>
               </Button>
               <Button
