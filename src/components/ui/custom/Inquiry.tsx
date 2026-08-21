@@ -28,9 +28,12 @@ export default function InquiryForm() {
   return (
     <Card className="w-2/3 p-4  mx-auto">
       <form className="flex flex-col gap-2" onSubmit={onSubmit}>
-          <h1 className="text-2xl font-semibold text-muted-foreground">
-            Have Questions?
+          <h1 className="text-center text-2xl font-semibold text-muted-foreground">
+            Join Our Waitlist!
           </h1>
+          <p className="text-sm text-center text-muted-foreground">
+            We will contact you when a property that suites you is available!
+          </p>
           <Input type="text" name="firstName" placeholder="First Name" />
           <Input type="text" name="lastName" placeholder="Last Name" />
           <Input type="text" name="email" placeholder="Email" />

@@ -1,94 +1,91 @@
-# WTR Capital Website (wtr-app)
+# WTR Capital Website
 
-## This is the official website for WTR Capital, a faith-driven property management company serving Middle Tennessee. This repository contains the source code for the public-facing informational site, built with Next.js 15 and Tailwind CSS 4.
+The official website for WTR Capital, a faith-driven property management company serving Middle Tennessee. The site includes public company information, property listings, inquiry forms, and administrative pages.
 
-### Preview
+## Features
 
-## ✨ Features
+- Responsive public homepage with the WTR Capital mission, values, leadership, and contact sections
+- Property listings at `/listings`
+- External actions for scheduling a showing, joining the waitlist, and applying for a property
+- Administrative login and home pages at `/admin/login` and `/admin/home`
+- Shared navigation, footer, and UI primitives
 
-Modern Homepage: A clean, responsive landing page introducing the company's mission and services.
+## Tech Stack
 
-Company Information: Includes sections for "The WTR Capital Mission," key company statistics, and "Our Leadership Team."
+- Next.js 16.1.6 with the App Router
+- React 19
+- TypeScript
+- Tailwind CSS 4
+- Radix UI Slot, Class Variance Authority, `clsx`, and `tailwind-merge`
+- Lucide React and React Icons
+- ESLint 9
 
-Contact Form: A "Have Questions?" form for users to send inquiries.
+## Getting Started
 
-Full-Site Navigation: A complete header and footer with navigation to all parts of the site.
+### Prerequisites
 
-## 🛠️ Tech Stack
+- Node.js 20 or newer
+- npm
 
-This project is built with a modern, performant tech stack:
+### Installation
 
-Framework: Next.js (v15)
+From the repository root:
 
-UI Library: React (v19)
-
-Language: TypeScript
-
-Styling: Tailwind CSS (v4)
-
-UI Primitives & Utilities:
-
-@radix-ui/react-slot: For component composition.
-
-clsx & tailwind-merge: For conditional and optimized class name management.
-
-class-variance-authority: For managing component variants.
-
-Icons: Lucide React & React Icons
-
-Linting: ESLint
-
-## 🚀 Getting Started
-
-To get a local copy up and running, follow these simple steps.
-
-Prerequisites
-
-You must have Node.js (v20+) and npm installed.
-
-Installation
-
-Clone the repo:
-
-git clone [https://github.com/your-username/wtr-app.git](https://github.com/your-username/wtr-app.git)
-
-
-Navigate to the project directory:
-
+```bash
 cd wtr-app
-
-
-Install NPM packages:
-
 npm install
+```
 
+Create or update `.env` with the environment values required for your local setup.
 
-Available Scripts
+### Development
 
-Run the development server:
-This will start the app on http://localhost:3000.
+Start the development server at [http://localhost:3000](http://localhost:3000):
 
+```bash
 npm run dev
+```
 
+### Production
 
-Build the application for production:
-This creates an optimized production build.
+Create an optimized production build:
 
+```bash
 npm run build
+```
 
+Start the production server:
 
-Run the production build:
-This starts the app from the production build.
-
+```bash
 npm run start
+```
 
+### Type Checking and Linting
 
-Lint the code:
-This will run ESLint to check for code quality and style issues.
+Run the TypeScript checker:
 
+```bash
+npx tsc --noEmit
+```
+
+Run ESLint:
+
+```bash
 npm run lint
+```
 
+## Project Structure
 
-📜 License
+```text
+src/
+	app/                 App Router pages and layouts
+	components/          Shared UI and page sections
+	lib/                 Shared utilities
+public/                Static images and other public assets
+```
 
-This project is proprietary to WTR Capital. (Or specify your license, e.g., "Distributed under the MIT License.")
+The `@/*` TypeScript path alias maps to `src/*`.
+
+## License
+
+This project is proprietary to WTR Capital.
