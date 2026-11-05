@@ -36,7 +36,7 @@ export default function Home() {
             <p className="mt-4 text-lg md:text-xl max-w-xl">
               Creating lasting value through integrity, service, and community.
             </p>
-            <div className="mt-6 w-1/2  max-w-2xl gap-4 justify-center grid grid-cols-1 md:grid-cols-3 md:w-full ">
+            <div className="mt-6 w-1/2  max-w-2xl gap-4 justify-center grid grid-cols-1 md:grid-cols-2 md:w-full ">
               <Button
                 asChild
                 type="button"
@@ -53,8 +53,8 @@ export default function Home() {
                 size="lg"
                 className="text-xl hover:cursor-pointer w-full"
               >
-                <Link href="https://docs.google.com/forms/d/e/1FAIpQLScIg8vKDZpSx5O2a1BK8ncxpZkmdawdGcDMrQU2gjFUkvuJgg/viewform?usp=publish-editor">
-                  Join Waitlist
+                <Link href="https://wtrcapitalllc.appfolio.com/listings">
+                  View  Properties
                 </Link>
               </Button>
               <Button
@@ -63,9 +63,7 @@ export default function Home() {
                 size="lg"
                 className="text-xl hover:cursor-pointer w-full"
               >
-                <Link href="https://app.propertyware.com/pw/application/#/tenant/wtrcapitalllc">
-                  Apply Now
-                </Link>
+                
               </Button>
             </div>
           </div>

@@ -17,11 +17,11 @@ const Nav = () => {
       </div>
 
       
-      <div className="flex justify-center w-full text-green-700 font-bold">
-          <Link href="/properties">
-            <h1 className="flex">
-              <span className="hidden md:flex mr-1">Available</span> Properties
-            </h1>
+      <div className="flex justify-center w-full text-green-700 ">
+          <Link href="https://wtrcapitalllc.appfolio.com/listings">
+            <Button variant="outline" className="flex cursor-pointer font-bold">
+              <span className="hidden md:flex mr-1 ">Available</span> Properties
+            </Button>
           </Link>
       </div>
 
