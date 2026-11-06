@@ -1,3 +1,4 @@
+import AppfolioListings from "@/components/AppfolioListings";
 import Footer from "@/components/ui/custom/Footer";
 import Nav from "@/components/ui/custom/Nav";
 import { PropertyList } from "@/components/ui/custom/PropertyList";
@@ -137,8 +138,10 @@ export default function ListingPage(){
                     <h1 className="text-4xl font-bold text-gray-800 pb-2">Find Homes with character and warmth</h1>
                 </div>
             
-            <SearchBar/>
-            <PropertyList properties={temp_properties} />
+            <div className="flex flex-col gap-2 mb-4 mt-15">
+                <AppfolioListings/>
+            </div>
+            
             </div>
             <div className="flex flex-col pt-15 p-10 h-" >
                 <Footer/>

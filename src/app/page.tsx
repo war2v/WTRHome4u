@@ -7,6 +7,9 @@ import About from "@/components/ui/custom/About";
 import Footer from "@/components/ui/custom/Footer";
 import { Team } from "@/components/ui/custom/Team";
 import InquiryForm from "@/components/ui/custom/Inquiry";
+import { House } from "lucide-react";
+import { BsPeople } from "react-icons/bs";
+import { FaBusinessTime } from "react-icons/fa";
 
 export default function Home() {
   return (
@@ -36,34 +39,36 @@ export default function Home() {
             <p className="mt-4 text-lg md:text-xl max-w-xl">
               Creating lasting value through integrity, service, and community.
             </p>
-            <div className="mt-6 w-1/2  max-w-2xl gap-4 justify-center grid grid-cols-1 md:grid-cols-2 md:w-full ">
+            <div className="mt-6 w-1/2  max-w-2xl gap-4 justify-center flex flex-col md:w-full ">
+              
               <Button
                 asChild
                 type="button"
                 size="lg"
                 className="text-xl hover:cursor-pointer w-full"
               >
-                <Link href="https://calendly.com/aruss-wtrc/30min">
-                  Schedule Showing
+                <Link href="/properties">
+                  <House /> View  Properties
                 </Link>
               </Button>
-              <Button
+              
+              <Button 
                 asChild
                 type="button"
                 size="lg"
-                className="text-xl hover:cursor-pointer w-full"
-              >
-                <Link href="https://wtrcapitalllc.appfolio.com/listings">
-                  View  Properties
+                className="text-xl hover:cursor-pointer w-full">
+                <Link href="https://account.appfolio.com/realms/foliospace/protocol/openid-connect/auth?client_id=account-picker&redirect_uri=https%3A%2F%2Faccount.appfolio.com%2Frealms%2Ffoliospace%2Fappfolio%2Faccount-picker%2Flogin-redirect%3Fpath%3D%2F&state=0%2F8f999ece-1a98-f3c0-7d2f-9a9420fe074f&response_type=code&scope=openid">
+                  <BsPeople/> Tenant Login
                 </Link>
               </Button>
-              <Button
+              <Button 
                 asChild
                 type="button"
                 size="lg"
-                className="text-xl hover:cursor-pointer w-full"
-              >
-                
+                className="text-xl hover:cursor-pointer w-full">
+                <Link href="https://wtrcapitalllc.appfolio.com/oportal/users/log_in">
+                  <FaBusinessTime/> Owner Login
+                </Link>
               </Button>
             </div>
           </div>
